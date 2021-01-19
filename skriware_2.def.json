@@ -31,7 +31,9 @@
       "default_value": 10
     },
     "material_bed_temperature": {
-      "value": "50"
+      "value": "50",
+      "resolve": "extruderValues('material_bed_temperature')[adhesion_extruder_nr] if resolveOrValue('adhesion_type') == 'raft' else max(extruderValues('material_bed_temperature'))",
+      "minimum_value_warning": "30"
     },
     "raft_airgap": {
       "default_value": 0.2
@@ -370,7 +372,9 @@
       "value": "195"
     },
     "material_bed_temperature_layer_0": {
-      "value": "50"
+      "value": "50",
+      "resolve": "extruderValues('material_bed_temperature_layer_0')[adhesion_extruder_nr] if resolveOrValue('adhesion_type') == 'raft' else max(extruderValues('material_bed_temperature_layer_0'))",
+      "minimum_value_warning": "30"
     },
     "wipe_retraction_retract_speed": {
       "value": "30"
