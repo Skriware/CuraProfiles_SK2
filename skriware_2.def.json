@@ -32,8 +32,8 @@
     },
     "material_bed_temperature": {
       "value": "50",
-      "resolve": "extruderValues('material_bed_temperature')[adhesion_extruder_nr] if resolveOrValue('adhesion_type') == 'raft' else max(extruderValues('material_bed_temperature'))",
-      "minimum_value_warning": "30"
+      "minimum_value_warning": "30",
+      "resolve": "extruderValues('material_bed_temperature')[adhesion_extruder_nr] if resolveOrValue('adhesion_type') == 'raft' else max(extruderValues('material_bed_temperature'))"
     },
     "raft_airgap": {
       "default_value": 0.2
@@ -60,7 +60,7 @@
       "value": "10"
     },
     "acceleration_topbottom": {
-      "value": "400"
+      "value": "200"
     },
     "prime_tower_size": {
       "default_value": 1
@@ -96,13 +96,13 @@
       "value": "0.4"
     },
     "speed_travel_layer_0": {
-      "value": "120"
+      "value": "80"
     },
     "speed_wall_0": {
       "value": "20"
     },
     "acceleration_wall_x": {
-      "value": "400"
+      "value": "200"
     },
     "layer_0_z_overlap": {
       "value": "0.1"
@@ -144,7 +144,8 @@
       "value": "0.4"
     },
     "infill_line_distance": {
-      "value": "5.33"
+      "value": "0 if infill_sparse_density == 0 else (infill_line_width * 100) / infill_sparse_density * (2 if infill_pattern == 'grid' else (3 if infill_pattern == 'triangles' or infill_pattern == 'trihexagon' or infill_pattern == 'cubic' or infill_pattern == 'cubicsubdiv' else (2 if infill_pattern == 'tetrahedral' or infill_pattern == 'quarter_cubic' else (1 if infill_pattern == 'cross' or infill_pattern == 'cross_3d' else 1))))",
+      "default_value":5.3333
     },
     "default_material_print_temperature": {
       "default_value": 200
@@ -240,7 +241,8 @@
       "default_value": 195
     },
     "cool_fan_speed_0": {
-      "default_value": 100
+      "default_value": 0,
+      "value": "cool_fan_speed if resolveOrValue('adhesion_type') == 'raft' else 0"
     },
     "brim_line_count": {
       "value": "17"
@@ -282,7 +284,7 @@
       "default_value": true
     },
     "acceleration_print_layer_0": {
-      "value": "400"
+      "value": "200"
     },
     "jerk_prime_tower": {
       "value": "5"
@@ -324,7 +326,7 @@
       "value": "1"
     },
     "acceleration_layer_0": {
-      "value": "400"
+      "value": "200"
     },
     "support_z_distance": {
       "default_value": 0.2
@@ -373,8 +375,8 @@
     },
     "material_bed_temperature_layer_0": {
       "value": "50",
-      "resolve": "extruderValues('material_bed_temperature_layer_0')[adhesion_extruder_nr] if resolveOrValue('adhesion_type') == 'raft' else max(extruderValues('material_bed_temperature_layer_0'))",
-      "minimum_value_warning": "30"
+      "minimum_value_warning": "30",
+      "resolve": "extruderValues('material_bed_temperature_layer_0')[adhesion_extruder_nr] if resolveOrValue('adhesion_type') == 'raft' else max(extruderValues('material_bed_temperature_layer_0'))"
     },
     "wipe_retraction_retract_speed": {
       "value": "30"
@@ -404,7 +406,7 @@
       "value": "33.33"
     },
     "jerk_layer_0": {
-      "value": "10"
+      "value": "5"
     },
     "support_angle": {
       "default_value": 60
@@ -422,16 +424,16 @@
       "value": "250"
     },
     "acceleration_print": {
-      "default_value": 400
+      "default_value": 200
     },
     "acceleration_infill": {
-      "value": "500"
+      "value": "400"
     },
     "bridge_wall_speed": {
       "value": "10.0"
     },
     "acceleration_wall_0": {
-      "value": "400"
+      "value": "200"
     },
     "support_offset": {
       "default_value": 0.2
@@ -635,7 +637,7 @@
       "default_value": true
     },
     "acceleration_support": {
-      "value": "400"
+      "value": "200"
     },
     "adhesion_extruder_nr": {
       "value": "0"
@@ -647,7 +649,7 @@
       "value": "False"
     },
     "jerk_wall_0": {
-      "value": "10"
+      "value": "5"
     },
     "raft_speed": {
       "value": "60"
@@ -659,7 +661,7 @@
       "default_value": 210
     },
     "acceleration_wall": {
-      "value": "400"
+      "value": "200"
     },
     "jerk_infill": {
       "value": "10"

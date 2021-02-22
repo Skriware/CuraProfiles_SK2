@@ -4,13 +4,13 @@
         <name>
             <brand>Skriware</brand>
             <material>Basic</material>
-            <color>Greay</color>
-            <label>PET</label>
+            <color>Orange</color>
+            <label>Glassbend</label>
         </name>
         <adhesion_info>Use with Skriware 2 buildplate</adhesion_info>
         <description>Draft for other materials</description>
         <version>1</version>
-        <color_code>#999999</color_code>
+        <color_code>#ffa000</color_code>
         <GUID>cece7f55-2ccc-4807-bbb6-4a5df9c9df81</GUID>
     </metadata>
     <properties>
@@ -18,14 +18,14 @@
         <diameter>1.75</diameter>
     </properties>
     <settings>
-        <cura:setting key="material_print_temperature">225</cura:setting>
-        <cura:setting key="default_material_print_temperature">225</cura:setting>
-        <cura:setting key="material_standby_temperature">225</cura:setting>
-        <cura:setting key="material_initial_print_temperature">225</cura:setting>
-        <cura:setting key="material_final_print_temperature">225</cura:setting>
-        <cura:setting key="material_bed_temperature">55</cura:setting>
-        <cura:setting key="material_print_temperature_layer_0">225</cura:setting>
-        <cura:setting key="material_bed_temperature_layer_0">55</cura:setting>  
+        <cura:setting key="material_print_temperature">245</cura:setting>
+        <cura:setting key="default_material_print_temperature">245</cura:setting>
+        <cura:setting key="material_standby_temperature">245</cura:setting>
+        <cura:setting key="material_initial_print_temperature">245</cura:setting>
+        <cura:setting key="material_final_print_temperature">245</cura:setting>
+        <cura:setting key="material_bed_temperature">60</cura:setting>
+        <cura:setting key="material_print_temperature_layer_0">245</cura:setting>
+        <cura:setting key="material_bed_temperature_layer_0">60</cura:setting>  
         <cura:setting key="retraction_amount">10</cura:setting>      
         <cura:setting key="retraction_speed">30</cura:setting>
         <cura:setting key="retraction_min_travel">1</cura:setting>
@@ -36,14 +36,16 @@
         <cura:setting key="switch_extruder_prime_speed">30</cura:setting>
         <cura:setting key="retraction_extrusion_window">3</cura:setting>
         <cura:setting key="retraction_count_max">30</cura:setting>
-        <setting key="print cooling">100</setting>
+        <setting key="print cooling">50</setting>
+        <cura:setting key="adhesion_type">raft</cura:setting>
         <cura:setting key="cool_min_speed">5</cura:setting>
         <cura:setting key="cool_min_layer_time">5</cura:setting>
         <cura:setting key="cool_fan_full_at_height">0</cura:setting>
         <cura:setting key="cool_fan_full_at_layer">0</cura:setting>
-        <cura:setting key="raft_fan_speed">50</cura:setting>
+        <cura:setting key="raft_fan_speed">0</cura:setting>
         <cura:setting key="raft_base_fan_speed">0</cura:setting>
-        <cura:setting key="raft_interface_fan_speed">20</cura:setting>
-        <cura:setting key="raft_surface_fan_speed">50</cura:setting>
+        <cura:setting key="raft_interface_fan_speed">0</cura:setting>
+        <cura:setting key="raft_surface_fan_speed">0</cura:setting>
     </settings>
 </fdmmaterial>
+

@@ -39,13 +39,12 @@
         <setting key="print cooling">100</setting>
         <cura:setting key="cool_min_speed">5</cura:setting>
         <cura:setting key="cool_min_layer_time">5</cura:setting>
-        <cura:setting key="cool_fan_speed_0">0</cura:setting>
         <cura:setting key="cool_fan_full_at_height">0</cura:setting>
         <cura:setting key="cool_fan_full_at_layer">0</cura:setting>
-        <cura:setting key="raft_fan_speed">100</cura:setting>
-        <cura:setting key="raft_interface_base_speed">100</cura:setting>
-        <cura:setting key="raft_interface_fan_speed">100</cura:setting>
-        <cura:setting key="raft_surface_fan_speed">100</cura:setting>
+        <cura:setting key="raft_fan_speed">50</cura:setting>
+        <cura:setting key="raft_base_fan_speed">0</cura:setting>
+        <cura:setting key="raft_interface_fan_speed">20</cura:setting>
+        <cura:setting key="raft_surface_fan_speed">50</cura:setting>
         <cura:setting key="speed_wall_0">45</cura:setting>
         <cura:setting key="speed_wall_x">60</cura:setting>
         <cura:setting key="speed_roofing">50</cura:setting>

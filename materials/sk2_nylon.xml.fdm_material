@@ -4,28 +4,28 @@
         <name>
             <brand>Skriware</brand>
             <material>Advanced</material>
-            <color>Blue</color>
-            <label>TPU</label>
+            <color>Teal</color>
+            <label>NYLON</label>
         </name>
         <adhesion_info>Use with Skriware 2 buildplate</adhesion_info>
         <description>Draft for other materials</description>
         <version>1</version>
-        <color_code>#0b0ffd</color_code>
+        <color_code>#0080ff</color_code>
         <GUID>cece7f55-2ccc-4807-bbb6-4a5df9c9df81</GUID>
     </metadata>
     <properties>
-        <density>1.24</density>
+        <density>1.15</density>
         <diameter>1.75</diameter>
     </properties>
     <settings>
-        <cura:setting key="material_print_temperature">235</cura:setting>
-        <cura:setting key="default_material_print_temperature">235</cura:setting>
-        <cura:setting key="material_standby_temperature">235</cura:setting>
-        <cura:setting key="material_initial_print_temperature">235</cura:setting>
-        <cura:setting key="material_final_print_temperature">235</cura:setting>
-        <cura:setting key="material_bed_temperature">40</cura:setting>
-        <cura:setting key="material_print_temperature_layer_0">235</cura:setting>
-        <cura:setting key="material_bed_temperature_layer_0">40</cura:setting>  
+        <cura:setting key="material_print_temperature">255</cura:setting>
+        <cura:setting key="default_material_print_temperature">255</cura:setting>
+        <cura:setting key="material_standby_temperature">255</cura:setting>
+        <cura:setting key="material_initial_print_temperature">255</cura:setting>
+        <cura:setting key="material_final_print_temperature">255</cura:setting>
+        <cura:setting key="material_bed_temperature">85</cura:setting>
+        <cura:setting key="material_print_temperature_layer_0">255</cura:setting>
+        <cura:setting key="material_bed_temperature_layer_0">85</cura:setting>  
         <cura:setting key="retraction_amount">10</cura:setting>      
         <cura:setting key="retraction_speed">30</cura:setting>
         <cura:setting key="retraction_min_travel">1</cura:setting>
@@ -35,24 +35,24 @@
         <cura:setting key="switch_extruder_retraction_speed">30</cura:setting>
         <cura:setting key="switch_extruder_prime_speed">30</cura:setting>
         <cura:setting key="retraction_extrusion_window">3</cura:setting>
-        <cura:setting key="retraction_count_max">3</cura:setting>
-        <setting key="print cooling">80</setting>
-        <cura:setting key="adhesion_type">skirt</cura:setting>
+        <cura:setting key="retraction_count_max">30</cura:setting>
+        <setting key="print cooling">30</setting>
+        <cura:setting key="adhesion_type">raft</cura:setting>
         <cura:setting key="cool_min_speed">5</cura:setting>
         <cura:setting key="cool_min_layer_time">5</cura:setting>
         <cura:setting key="cool_fan_full_at_height">0</cura:setting>
         <cura:setting key="cool_fan_full_at_layer">0</cura:setting>
         <cura:setting key="raft_fan_speed">0</cura:setting>
         <cura:setting key="raft_base_fan_speed">0</cura:setting>
-        <cura:setting key="raft_interface_fan_speed">50</cura:setting>
-        <cura:setting key="raft_surface_fan_speed">50</cura:setting>
-        <cura:setting key="speed_wall">20</cura:setting>
-        <cura:setting key="speed_wall_0">20</cura:setting>
-        <cura:setting key="speed_wall_x">20</cura:setting>
-        <cura:setting key="speed_roofing">20</cura:setting>
-        <cura:setting key="speed_topbottom">20</cura:setting>
-        <cura:setting key="speed_infill">20</cura:setting>
-        <cura:setting key="speed_support">20</cura:setting>
+        <cura:setting key="raft_interface_fan_speed">0</cura:setting>
+        <cura:setting key="raft_surface_fan_speed">0</cura:setting>
+        <cura:setting key="speed_wall">30</cura:setting>
+        <cura:setting key="speed_wall_0">30</cura:setting>
+        <cura:setting key="speed_wall_x">30</cura:setting>
+        <cura:setting key="speed_roofing">30</cura:setting>
+        <cura:setting key="speed_topbottom">30</cura:setting>
+        <cura:setting key="speed_infill">40</cura:setting>
+        <cura:setting key="speed_support">40</cura:setting>
         <cura:setting key="acceleration_wall">200</cura:setting>
         <cura:setting key="acceleration_wall_0">200</cura:setting>
         <cura:setting key="acceleration_wall_x">200</cura:setting>
