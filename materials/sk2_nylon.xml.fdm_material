@@ -36,7 +36,7 @@
         <cura:setting key="switch_extruder_prime_speed">30</cura:setting>
         <cura:setting key="retraction_extrusion_window">3</cura:setting>
         <cura:setting key="retraction_count_max">30</cura:setting>
-        <setting key="print cooling">30</setting>
+         <cura:setting key="cool_fan_speed">30</cura:setting>
         <cura:setting key="adhesion_type">raft</cura:setting>
         <cura:setting key="cool_min_speed">5</cura:setting>
         <cura:setting key="cool_min_layer_time">5</cura:setting>
