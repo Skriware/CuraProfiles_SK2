@@ -18,6 +18,7 @@
         <diameter>1.75</diameter>
     </properties>
     <settings>
+        <cura:setting key="hole_xy_offset">0.2</cura:setting>
         <cura:setting key="material_print_temperature">195</cura:setting>
         <cura:setting key="default_material_print_temperature">195</cura:setting>
         <cura:setting key="material_standby_temperature">195</cura:setting>
