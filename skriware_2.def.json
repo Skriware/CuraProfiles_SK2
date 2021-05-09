@@ -729,6 +729,12 @@
     },
     "speed_print_layer_0": {
       "value": "10.0"
-    }
+    },
+    "material_print_temp_prepend":{
+      "value": false
+    },
+    "material_bed_temp_prepend":{
+      "value": false
+    }             
   }
 }
