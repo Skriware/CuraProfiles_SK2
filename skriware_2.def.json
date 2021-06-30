@@ -606,7 +606,7 @@
       "default_value": "10"
     },
     "fill_outline_gaps": {
-      "default_value": true
+      "default_value": false
     },
     "layer_height": {
       "default_value": 0.2
