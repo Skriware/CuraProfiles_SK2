@@ -45,5 +45,6 @@
         <cura:setting key="raft_base_fan_speed">0</cura:setting>
         <cura:setting key="raft_interface_fan_speed">0</cura:setting>
         <cura:setting key="raft_surface_fan_speed">20</cura:setting>
+        <cura:setting key="raft_airgap">0.15</cura:setting>
     </settings>
 </fdmmaterial>
