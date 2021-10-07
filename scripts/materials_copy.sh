@@ -6,5 +6,5 @@ then
 	echo -e "\033[0;33mMake sure you run the script from the project main folder."
 fi
 echo -e "\033[0;32m->Copying material profile files\033[1;30m"
-cp -rv ./materials/* /Applications/Ultimaker\ Cura.app/Contents/Resources/resources/materials/
+cp -rv ../materials/* /Applications/Ultimaker\ Cura.app/Contents/Resources/resources/materials/
 echo $'\033[0;32m\u2714 Done'
